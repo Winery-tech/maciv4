@@ -1,0 +1,39 @@
+[0.804s] Invoking command in '/workspace/src/maciv4': PYTHONPATH=/workspace/src/maciv4/build/maciv4/prefix_override:/workspace/src/maciv4/install/maciv4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/maciv4 build --build-base /workspace/src/maciv4/build/maciv4/build install --record /workspace/src/maciv4/build/maciv4/install.log --single-version-externally-managed
+[1.023s] running egg_info
+[1.024s] creating build/maciv4/maciv4.egg-info
+[1.024s] writing build/maciv4/maciv4.egg-info/PKG-INFO
+[1.024s] writing dependency_links to build/maciv4/maciv4.egg-info/dependency_links.txt
+[1.025s] writing entry points to build/maciv4/maciv4.egg-info/entry_points.txt
+[1.025s] writing requirements to build/maciv4/maciv4.egg-info/requires.txt
+[1.025s] writing top-level names to build/maciv4/maciv4.egg-info/top_level.txt
+[1.025s] writing manifest file 'build/maciv4/maciv4.egg-info/SOURCES.txt'
+[1.027s] reading manifest file 'build/maciv4/maciv4.egg-info/SOURCES.txt'
+[1.027s] writing manifest file 'build/maciv4/maciv4.egg-info/SOURCES.txt'
+[1.027s] running build
+[1.028s] running build_py
+[1.028s] creating /workspace/src/maciv4/build/maciv4/build
+[1.028s] creating /workspace/src/maciv4/build/maciv4/build/lib
+[1.028s] creating /workspace/src/maciv4/build/maciv4/build/lib/maciv4
+[1.028s] copying maciv4/__init__.py -> /workspace/src/maciv4/build/maciv4/build/lib/maciv4
+[1.029s] running install
+[1.029s] running install_lib
+[1.029s] creating /workspace/src/maciv4/install/maciv4/lib/python3.10/site-packages/maciv4
+[1.030s] copying /workspace/src/maciv4/build/maciv4/build/lib/maciv4/__init__.py -> /workspace/src/maciv4/install/maciv4/lib/python3.10/site-packages/maciv4
+[1.030s] byte-compiling /workspace/src/maciv4/install/maciv4/lib/python3.10/site-packages/maciv4/__init__.py to __init__.cpython-310.pyc
+[1.030s] running install_data
+[1.031s] creating /workspace/src/maciv4/install/maciv4/share/ament_index
+[1.032s] creating /workspace/src/maciv4/install/maciv4/share/ament_index/resource_index
+[1.032s] creating /workspace/src/maciv4/install/maciv4/share/ament_index/resource_index/packages
+[1.032s] copying resource/maciv4 -> /workspace/src/maciv4/install/maciv4/share/ament_index/resource_index/packages
+[1.032s] creating /workspace/src/maciv4/install/maciv4/share/maciv4/launch
+[1.032s] copying launch/gazebo.launch.py -> /workspace/src/maciv4/install/maciv4/share/maciv4/launch
+[1.033s] creating /workspace/src/maciv4/install/maciv4/share/maciv4/config
+[1.033s] copying package.xml -> /workspace/src/maciv4/install/maciv4/share/maciv4
+[1.033s] creating /workspace/src/maciv4/install/maciv4/share/maciv4/robot_description
+[1.033s] copying robot_description/maciv4.urdf.xacro -> /workspace/src/maciv4/install/maciv4/share/maciv4/robot_description
+[1.034s] copying robot_description/maci4.urdf -> /workspace/src/maciv4/install/maciv4/share/maciv4/robot_description
+[1.034s] running install_egg_info
+[1.038s] Copying build/maciv4/maciv4.egg-info to /workspace/src/maciv4/install/maciv4/lib/python3.10/site-packages/maciv4-0.0.0-py3.10.egg-info
+[1.039s] running install_scripts
+[1.060s] writing list of installed files to '/workspace/src/maciv4/build/maciv4/install.log'
+[1.086s] Invoked command in '/workspace/src/maciv4' returned '0': PYTHONPATH=/workspace/src/maciv4/build/maciv4/prefix_override:/workspace/src/maciv4/install/maciv4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/maciv4 build --build-base /workspace/src/maciv4/build/maciv4/build install --record /workspace/src/maciv4/build/maciv4/install.log --single-version-externally-managed
