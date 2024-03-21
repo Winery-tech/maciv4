@@ -12,7 +12,7 @@ def generate_launch_description():
     gazebo_sim = IncludeLaunchDescription(path, launch_arguments=[("gz_args", "empty.sdf")])
 
     robot = ExecuteProcess(
-        cmd=["ros2", "run", "ros_gz_sim", "create", "-topic", "robot_description", "-x", "-6.70", "-y","-9.34", "-z", "1.23"],
+        cmd=["ros2", "run", "ros_gz_sim", "create", "-topic", "robot_description", "-z", "1.0"],
         name="spawn robot",
         output="both"
     )
