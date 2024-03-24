@@ -34,6 +34,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "gripper = maciv4.maciv4:main",
+            "node = maciv4.simple:main",
+            "moveit = maciv4.moveit:main"
         ],
     },
 )
